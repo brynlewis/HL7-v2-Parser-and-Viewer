@@ -1,0 +1,72 @@
+#result{
+	font-size:85%;
+}
+#result p{
+	padding-left:1em;
+	width:99%;
+	overflow:hidden;
+	white-space: nowrap;
+	margin:0;
+}
+#result p.hover{
+	background-image: url(img/expand.png);
+	background-repeat: no-repeat;
+	background-position: 0.5em 3px;
+}
+#result p.hover:hover{
+	box-shadow:0px 0px 2px 2px #C5D6FA;
+	color:#0039B3;
+	background-color:white;
+}
+#hl7viewer textarea{
+    border: 2px solid #ddd;
+    box-shadow: none;
+    font-size: 85%;
+    margin-bottom: 1em;
+    width: 100%;
+}
+#hl7viewer div.segment{
+	overflow:hidden;
+	padding:0;
+	border-left:1px dotted #C5D6FA;
+	border-left:2px solid #C5D6FA;
+	border-top:1px dotted #C5D6FA;
+	background-color: #FCFDFF;
+	cursor:pointer;
+}
+#hl7viewer div.in{
+	display:none;
+}
+#hl7viewer div.field{
+	margin-left:1em;
+	background-color: #F3F7FD;
+	border-left:1px dotted #C5D6FA;
+	border-left:2px solid #C5D6FA;
+	border-top:1px dotted #C5D6FA;
+}
+#hl7viewer div.chunk{
+	margin-left:1em;
+	background-color: #FCFDFF;
+	border-top:1px dotted #C5D6FA;
+	border-left:2px solid #C5D6FA;
+}
+#hl7viewer div.subcomp{
+	margin-left:1em;
+	background-color: #F3F7FD;
+	border-left:2px solid #C5D6FA;
+	border-top:1px dotted #C5D6FA;
+}
+#hl7viewer span.l{
+	margin-left:1em;
+	margin-right:0.5em;
+	text-align:right;
+	width:1.25em;
+	font-size:90%;
+	background-color:#c8c8c8;
+}
+#hl7viewer .stripe1{
+	background-color:#e8e8e8;
+}
+div.msg{
+width:10em;font-size:80%;overflow:hidden;background-color:#ddd;float:left;white-space:nowrap;
+}
